@@ -28,7 +28,7 @@ class Artist
 
   def self.total_experience 
     # @@all.map {|artist| artist.years_experience }.reduce(:+)
-    @@all.inject {|initial,artists| initial.years_experience + artists.years_experience}
+    @@all.inject {|initial,artists| initial + artists.years_experience}
   end
 
   def self.most_prolific
