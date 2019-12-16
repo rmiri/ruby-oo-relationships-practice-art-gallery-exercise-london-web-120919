@@ -26,7 +26,7 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 
 **ARTIST**
 
-  * `Artist.all`
+  * `Artist.all`  ### self.all
     * Returns an `array` of all the artists
 
   * `Artist#paintings`
