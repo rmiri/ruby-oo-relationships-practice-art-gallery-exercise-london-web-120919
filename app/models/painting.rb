@@ -18,8 +18,8 @@ class Painting
   end
 
   def self.total_price
-    # @@all.map {|paintings| paintings.price}.reduce(:+)
-    @@all.inject {|p1,p2| p1.price + p2.price}
+    @@all.map {|paintings| paintings.price}.reduce(:+)
+    # @@all.inject {|p1,p2| p1.price + p2.price}
   end
 
 end
